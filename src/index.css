@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: gray;
+  box-shadow: 0 2px 2px rgba(0,0,0,.8);
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black;
+  margin: 0 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: aliceblue;
+}
+
+.list-item {
+  margin-bottom: 20px;
+}
+
+.button {
+  margin-bottom: 10px;
+  text-decoration: none;
+  padding: 10px;
+  background-color: aquamarine;
+  color: white;
+  border-radius: 5px;
+}

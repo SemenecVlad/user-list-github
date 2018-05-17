@@ -1,0 +1,1 @@
+export const USERS_FETCH_SUCCESS = 'users_fetch_success';
