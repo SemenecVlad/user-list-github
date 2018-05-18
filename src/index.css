@@ -34,7 +34,22 @@ body {
 }
 
 .list-item {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 0 auto;
   margin-bottom: 20px;
+}
+
+.list-item div {
+  width: 50%;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.list-item img {
+  width: 100%;
+  border-radius: 20px;
 }
 
 .button {
@@ -44,4 +59,31 @@ body {
   background-color: aquamarine;
   color: white;
   border-radius: 5px;
+}
+
+.main-list {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.list-element {
+  padding: 10px;
+  border-bottom: 1px solid gray;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+}
+
+.list-element div {
+  width: 80%;
+}
+
+.list-element img {
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 0 4px black;
+  border-radius: 10px;
 }

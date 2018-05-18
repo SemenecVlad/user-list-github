@@ -10,7 +10,7 @@ export default class Main extends Component {
             <div className='main'>
                 <Switch>
                     <Route exact path='/' component={List} />
-                    <Route path='/user' component={ListItem} />
+                    <Route path='/user/:username' component={ListItem} />
                 </Switch>
                 This is Main container
             </div>
