@@ -30,8 +30,8 @@ class List extends Component {
             <div className='main-list'>
                 <h2>User List</h2>
                 {this.renderList()}
-                <button onClick={this.props.nextPage}>Next</button>
                 <button onClick={this.props.prevPage}>Prev</button>
+                <button onClick={this.props.nextPage}>Next</button>
             </div>
         )
     }

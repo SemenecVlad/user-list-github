@@ -47,7 +47,7 @@ export const nextPage = () => {
 export const prevPage = () => {
     const per_page = 20;
     function nextSince(){
-        since-=20;
+        since > 0 ? since -= 20 : since = 0;
         return since;
     };
 
