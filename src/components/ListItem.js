@@ -19,16 +19,16 @@ class ListItem extends Component {
                     <img alt={user.name} src={user.avatar_url} />
                 </div>
                 <div>
-                    <p>Name: {user.name === null ? 'Unnamed Man :)' : user.name}</p>
-                    <p>Profile link: <a href={user.html_url} target='_blank'>{user.html_url}</a></p>
-                    <p>Followers: {user.followers}</p>
-                    <p>Following: {user.following}</p>
-                    <p>Created at: {user.created_at}</p>
-                    <p>{user.company}</p>
-                    <p>{user.email}</p>
-                    <p>{user.location}</p>
-                    <p>{user.blog}</p>
-                    <p>{user.bio}</p>
+                    <p><strong>Name:</strong> {user.name === null ? 'Unnamed Man :)' : user.name}</p>
+                    <p><strong>Profile link:</strong> <a href={user.html_url} target='_blank'>{user.html_url}</a></p>
+                    <p><strong>Followers:</strong> {user.followers}</p>
+                    <p><strong>Following:</strong> {user.following}</p>
+                    <p><strong>Created at:</strong> {user.created_at}</p>
+                    <p><strong>Company:</strong>{user.company === null ? ' This info is not available' : user.company}</p>
+                    <p><strong>Email:</strong>{user.email === null ? ' This info is not available' : user.email}</p>
+                    <p><strong>Location:</strong>{user.location === null ? ' This info is not available' : user.location}</p>
+                    <p><strong>Blog:</strong>{user.blog === null ? ' This info is not available' : user.blog}</p>
+                    <p><strong>Bio:</strong>{user.bio === null ? ' This info is not available' : user.bio}</p>
                     <Link to='/' className='button'>Go Back to List</Link>
                 </div>
             </Fragment>

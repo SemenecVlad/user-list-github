@@ -16,9 +16,9 @@ class List extends Component {
                 <Link to={`/user/${item.login}`} className='list-element' key={item.id} item={item}>
                     <img alt={item.name} src={item.avatar_url} />
                     <div>
-                        <h4>{item.login}</h4>
-                        <p>{item.html_url}</p>
-                        <p>{item.id}</p>
+                        <h4 style={{marginTop: '5px', marginBottom: '5px'}}>User login: {item.login}</h4>
+                        <p>Profile link: {item.html_url}</p>
+                        <p>Profile ID: {item.id}</p>
                     </div>
                 </Link>
             )
